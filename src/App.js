@@ -5,12 +5,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
           <a
             href="https://www.shecodes.io/graduates/68983-saeideh-mahmoudian"
             target="_blank"
+            rel="noreferrer"
           >
             Saeideh Mahmoudian
           </a>{" "}
@@ -18,6 +19,7 @@ export default function App() {
           <a
             href="https://github.com/saeideh-mahmoudian/react-WeatherApp"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced on GitHub
           </a>
