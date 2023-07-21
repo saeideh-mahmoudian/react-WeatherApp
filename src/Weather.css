@@ -1,9 +1,10 @@
 .Weather {
     border: 1px solid #dadde1;
     border-radius: 4px;
-    color: rgb(135, 135, 135);
+    color: rgb(44, 42, 42);
     font-family: arial,sans-serif;
     padding: 16px;
+    background-image: url(/src/images/weather-app-backgroung.jpg);
 }
 
 .Weather h1 {
@@ -22,7 +23,7 @@
     list-style: none;
     font-size: 16px;
     font-weight: 100;
-    line-height: 19px;
+    line-height: 22px;
 }
 
 .Weather .temperature {
